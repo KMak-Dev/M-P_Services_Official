@@ -1,0 +1,90 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+
+.container{
+    width:100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing:border-box;
+    overflow:hidden;
+    
+    background-color:white ;
+}
+.navbar{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    /*border-bottom:2px solid #273746;/*/
+    
+}
+.navbar .logo{
+    
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+  
+.navbar .logo p{
+    font-size: 40px;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative; 
+    font-family: "Sorts Mill Goudy",serif;
+}
+.navbar .logo p:before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    bottom: 0;
+    left: 5%;
+    right:5%;
+    border-bottom: 2px solid #333;
+}
+
+nav{
+    
+    text-align:right;
+    /*border: 2px solid black;*/
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px
+    /*padding: 15px;/*
+    padding-left: 20px;
+    padding-right:20px;*/
+    
+}
+
+nav ul li button{
+    
+    color: black;
+    font-size:18px;
+    /*font-family: 'ELEGANT', sans-serif;*/
+    transition: 0.3s;
+    background-color:white ;
+    border:none;
+    cursor:pointer;
+}
+
+nav ul li a {
+    color: black;
+    font-size:16px;
+    /*font-family: 'ELEGANT', sans-serif;*/
+    transition: 0.3s;
+   
+    border:none;
+    cursor:pointer;
+    text-decoration: none;
+}
