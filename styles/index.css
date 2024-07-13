@@ -14,7 +14,7 @@
     padding-right: 3vh;*/
     height:100vh;
     width:100vw;
-    background-color: rgb(235, 239, 239);
+    background-color: rgb(243, 244, 244);
 }
 .banner{
    display:flex;
@@ -48,16 +48,20 @@
 }
 
 .text a:hover{
-    background-color: rgb(95, 92, 92);
+    background-color: rgb(135, 132, 132);
 }
 
 .img_container{
-    background-image: url(../assets/laptop.png);
-    
+    background-image: 
+    url(../assets/work.png);
     width: 60vw;
     background-position: center;
     padding-top:15vh;
     background-size: contain;
-    
     margin: 15vh 5vw;
+    transition: 0.5s;
+}
+
+.img_container:hover{
+    transform: scale(1.02);
 }
