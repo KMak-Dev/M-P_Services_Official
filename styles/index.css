@@ -60,6 +60,7 @@
     background-size: contain;
     margin: 15vh 5vw;
     transition: 0.5s;
+    background-repeat: no-repeat;
 }
 
 .img_container:hover{
