@@ -8,6 +8,9 @@ header{
     position: relative;
     background-color: white;
     width:100vw;
+    position: fixed;
+    top:0;
+    z-index:100;
 }
 ul{
     display: flex;
