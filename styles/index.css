@@ -16,23 +16,69 @@
     width:100vw;
     background-color: rgb(243, 244, 244);
 }
+
+.container-2{
+    height:70vh;
+    width:100vw;
+    background-color:white;
+}
+.container-3{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(38, 73, 110);
+    color:white;
+}
+
+
 .banner{
-   display:flex;
-   flex-direction: row;
-   height: 88vh;
-   
-}
-#banner1{
-    padding-top:12vh;
-}
-#text1{
-    width:40vw;
-    align-items: center;
-    text-align: left;
-    padding-left: 10vw;
-    padding-top: 15vh;
+    display:flex;
+    flex-direction: row;
+    height: 100vh;
     
+ }
+ #banner1{
+     padding-top:12vh;
+ }
+
+#img1{
+    background-image: 
+    url(../assets/work.png);
+    width: 60vw;
+    background-position: center;
+    padding-top:15vh;
+    background-size: contain;
+    margin: 15vh 5vw;
+    transition: 0.5s;
+    background-repeat: no-repeat;
 }
+#img2{
+    background-image: 
+    url(../assets/coding.png);
+    width: 60vw;
+    background-position: center;
+    padding-top:15vh;
+    background-size: contain;
+    margin: 15vh 5vw;
+    transition: 0.5s;
+    background-repeat: no-repeat;
+}
+
+#img3{
+    background-image: 
+    url(../assets/business.jpg);
+    width: 60vw;
+    background-position: center;
+    padding-top:15vh;
+    background-size: contain;
+    margin: 15vh 5vw;
+    transition: 0.5s;
+    background-repeat: no-repeat;
+}
+
+.img_container:hover{
+    transform: scale(1.02);
+}
+
 .text .title{
     font-size: 3rem;
     padding-bottom: 5vh;
@@ -56,50 +102,23 @@
     background-color: rgb(135, 132, 132);
 }
 
-#img1{
-    background-image: 
-    url(../assets/work.png);
-    width: 60vw;
-    background-position: center;
-    padding-top:15vh;
-    background-size: contain;
-    margin: 15vh 5vw;
-    transition: 0.5s;
-    background-repeat: no-repeat;
+#text1{
+    width:40vw;
+    align-items: center;
+    text-align: left;
+    padding-left: 10vw;
+    padding-top: 15vh;
+    
+}
+#text3{
+    width:40vw;
+    align-items: center;
+    text-align: left;
+    padding-right: 10vw;
+    padding-top: 15vh;
+    
 }
 
-.img_container:hover{
-    transform: scale(1.02);
-}
-
-
-.container-2{
-    height:70vh;
-    width:100vw;
-    background-color:white;
-}
-
-#img2{
-    background-image: 
-    url(../assets/coding.png);
-    width: 60vw;
-    background-position: center;
-    padding-top:15vh;
-    background-size: contain;
-    margin: 15vh 5vw;
-    transition: 0.5s;
-    background-repeat: no-repeat;
-}
-
-
-
-
-.container-3{
-    height:100vh;
-    width:100vw;
-    background-color: rgb(38, 73, 110);
-    color:white;
-}
 .container-3 .text a{
     text-decoration: none;
     color: white;
@@ -114,25 +133,3 @@
     background-color: white;
     color: black;
 }
-
-#img3{
-    background-image: 
-    url(../assets/business.jpg);
-    width: 60vw;
-    background-position: center;
-    padding-top:15vh;
-    background-size: contain;
-    margin: 15vh 5vw;
-    transition: 0.5s;
-    background-repeat: no-repeat;
-}
-
-#text3{
-    width:40vw;
-    align-items: center;
-    text-align: left;
-    padding-right: 10vw;
-    padding-top: 15vh;
-    
-}
-
