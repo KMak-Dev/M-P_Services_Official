@@ -29,15 +29,14 @@
     color:white;
 }
 
-
 .banner{
     display:flex;
     flex-direction: row;
-    height: 100vh;
+    height: 88vh;
     
  }
  #banner1{
-     padding-top:12vh;
+    padding-top:12vh;
  }
 
 #img1{
