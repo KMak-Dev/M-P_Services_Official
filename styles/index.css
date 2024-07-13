@@ -20,7 +20,10 @@
    display:flex;
    flex-direction: row;
    height: 88vh;
-   padding-top:12vh;
+   
+}
+#banner1{
+    padding-top:12vh;
 }
 #text1{
     width:40vw;
