@@ -15,6 +15,7 @@
     height:100vh;
     width:100vw;
     background-color: rgb(243, 244, 244);
+    overflow:hidden;
 }
 
 .container-2{
@@ -27,6 +28,19 @@
     width:100vw;
     background-color: rgb(38, 73, 110);
     color:white;
+}
+.container-4{
+    height:50vh;
+    width:100vw;
+    background:  linear-gradient( to right,
+        rgba(0, 0, 0, 0.8),
+        rgba(88, 87, 87, 0.5)
+      ),url(../assets/laptop2.jpg);
+    align-items: center;
+    background-position: center;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    
 }
 
 .banner{
@@ -117,6 +131,16 @@
     padding-top: 15vh;
     
 }
+#text4{
+    padding-left: 10vw;
+    padding-top:10vh;
+    width:40vw;
+    color:white;
+}
+
+#contact .content{
+    font-size: 1rem;
+}
 
 .container-3 .text a{
     text-decoration: none;
@@ -131,4 +155,14 @@
 .container-3 .text a:hover{
     background-color: white;
     color: black;
+}
+
+#links4 a{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+#links4 a:hover{
+    background-color:white;
+    color:black;
 }
