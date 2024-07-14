@@ -13,14 +13,14 @@
     /*padding-left: 1vw;
     padding-right: 3vh;*/
     height:100vh;
-    width:100vw;
+    width:100%;
     background-color: rgb(243, 244, 244);
     overflow:hidden;
 }
 
 .container-2{
     height:50vh;
-    width:100vw;
+    width:100%;
     background:
     linear-gradient( 
         rgba(103, 145, 175,0.8),
@@ -45,7 +45,7 @@
 
 .container-3{
     height:100vh;
-    width:100vw;
+    width:100%;
     background-color: rgb(38, 73, 110);
     /*background-color: rgb(158, 193, 233);*/
     color:white;
