@@ -22,7 +22,7 @@
     padding-bottom: 5vh;
 }
 .footer_column ul li a{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-decoration: none;
     color:black;
     font-weight: bold;
@@ -64,12 +64,10 @@
 
 #contact_footer li{
     padding-bottom: 5vh;
-    font-size: 1.1rem;
     font-weight: 00;
+    font-size:1rem;
 }
-
 #contact_footer{
-    
 }
 
 .footer_header{

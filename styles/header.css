@@ -65,4 +65,56 @@ header ul li a:hover::after {
    
 }
 
+.sidebar{
+    display:none;
+    z-index:1;
+}
 
+#menu{
+    height: 4vh;
+    width:4vh;
+    margin-right: 5vw;
+    margin-top: 4vh;
+    display:none;
+}
+@media only screen and (max-width:800px){
+    nav{
+        display:none;
+    }
+    .logo{
+        width:50%;
+    }
+    #menu{
+        display:block;
+    }
+    .sidebar{
+        position:fixed;
+        top:12vh;
+        height: 0vh;
+        width: 100vw;
+        z-index:20;
+        transition:0.3s;
+        background-color: white;
+        display:block;
+        z-index:0;
+    }
+    #side_menu{
+        display:none;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #side_menu li{
+        padding: 2vh 0vw;
+        border-bottom: 1px solid rgb(246, 240, 240);
+        width: 90%;
+        display:flex;
+        justify-content: flex-start;
+        
+    }
+    #side_menu li a{
+        font-weight: 0;
+        font-size:1rem;
+    }
+}
