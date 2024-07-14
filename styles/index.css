@@ -23,8 +23,8 @@
     width:100vw;
     background:
     linear-gradient( 
-        rgba(103, 145, 175,0.9),
-        rgba(103, 145, 175,0.9)
+        rgba(103, 145, 175,0.8),
+        rgba(103, 145, 175,0.8)
     ),url(../assets/laptop2.jpg);
     background-position: center;
     background-size: 100vw;
@@ -49,6 +49,7 @@
     background-color: rgb(38, 73, 110);
     /*background-color: rgb(158, 193, 233);*/
     color:white;
+
 }
 .container-4{
     height:50vh;
@@ -85,6 +86,7 @@
     transition: 0.5s;
     background-repeat: no-repeat;
 }
+
 #img2{
     background-image: 
     url(../assets/coding.png);
@@ -213,11 +215,3 @@
     color:white;
 }
 
-#text2{
-    align-items: center;
-}
-
-#banner2{
-    display: flex;
-    justify-content: center;
-}
