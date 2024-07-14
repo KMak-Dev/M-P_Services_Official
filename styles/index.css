@@ -49,6 +49,7 @@
     background-color: rgb(38, 73, 110);
     /*background-color: rgb(158, 193, 233);*/
     color:white;
+    overflow: hidden;
 
 }
 .container-4{
@@ -62,7 +63,7 @@
     background-position: center;
     background-size: 100vw;
     background-repeat: no-repeat;
-    
+    overflow: hidden;
 }
 
 .banner{
