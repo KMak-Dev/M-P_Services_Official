@@ -88,9 +88,26 @@ header ul li a:hover::after {
     #menu{
         display:block;
     }
+    .sidebar{
+        position:fixed;
+        top:12vh;
+        height: 0vh;
+        width: 100vw;
+        z-index:20;
+        transition:0.3s;
+        background-color: white;
+        display:block;
+        z-index:0;
+    }
+    #side_menu{
+        display:none;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
     /*
-    
-    
     .sidebar{
         position:fixed;
         top:12vh;
