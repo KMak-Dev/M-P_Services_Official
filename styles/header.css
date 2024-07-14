@@ -87,6 +87,9 @@ header ul li a:hover::after {
     #menu{
         display:block;
     }
+    /*
+    
+    
     .sidebar{
         position:fixed;
         top:12vh;
@@ -95,7 +98,7 @@ header ul li a:hover::after {
         z-index:20;
         transition:0.3s;
         background-color: white;
-        display:block;
+        display:none;
         z-index:0;
     }
     #side_menu{
@@ -116,5 +119,5 @@ header ul li a:hover::after {
     #side_menu li a{
         font-weight: 0;
         font-size:1rem;
-    }
+    }*/
 }
