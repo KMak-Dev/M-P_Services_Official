@@ -19,14 +19,35 @@
 }
 
 .container-2{
-    height:70vh;
+    height:50vh;
     width:100vw;
-    background-color:white;
+    background:
+    linear-gradient( 
+        rgba(103, 145, 175,0.9),
+        rgba(103, 145, 175,0.9)
+    ),url(../assets/laptop2.jpg);
+    background-position: center;
+    background-size: 100vw;
 }
+
+#title2{
+    text-align: center;
+    width: 100vw;
+    padding-top:5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    padding-bottom: 2vh;
+    font-weight:bold;
+    color:rgb(238, 235, 235);
+}
+
 .container-3{
     height:100vh;
     width:100vw;
     background-color: rgb(38, 73, 110);
+    /*background-color: rgb(158, 193, 233);*/
     color:white;
 }
 .container-4{
@@ -35,10 +56,10 @@
     background:  linear-gradient( to right,
         rgba(0, 0, 0, 0.8),
         rgba(88, 87, 87, 0.5)
-      ),url(../assets/laptop2.jpg);
+      ),url(../assets/business.jpg);
     align-items: center;
     background-position: center;
-    background-size: 2000px;
+    background-size: 100vw;
     background-repeat: no-repeat;
     
 }
@@ -78,7 +99,7 @@
 
 #img3{
     background-image: 
-    url(../assets/business.jpg);
+    url(../assets/meeting.jpg);
     width: 60vw;
     background-position: center;
     padding-top:15vh;
@@ -165,4 +186,38 @@
 #links4 a:hover{
     background-color:white;
     color:black;
+}
+
+#links2 a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    padding: 1vh 2vw;
+    transition: 0.5s;
+    margin-right: 3vw;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+
+#links2 a:hover{
+    background-color:white;
+    color:black;
+}
+
+.container-2 .banner{
+    
+}
+
+.container-2 .content{
+    font-size: 1rem;
+    color:white;
+}
+
+#text2{
+    align-items: center;
+}
+
+#banner2{
+    display: flex;
+    justify-content: center;
 }
