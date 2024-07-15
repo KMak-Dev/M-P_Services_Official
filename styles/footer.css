@@ -89,7 +89,7 @@
     .footer{
         height:80vh;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
         flex-wrap:wrap;
     }
     .footer_column{
