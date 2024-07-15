@@ -29,10 +29,13 @@
     #text1{
         width:100vw;
         align-items: center;
-        text-align: left;
+        text-align: center;
         padding-left: 10vw;
         padding-right: 10vw;
         padding-top: 15vh;
         
     }
+   #banner1 .links a{
+        padding: 1vh 10vw;
+   }
 }
