@@ -79,7 +79,14 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
-
+.footer_header a{
+    text-decoration: none;
+    color:black;
+    transition: 0.5s;
+}
+.footer_header a:hover{
+    color:rgb(153, 148, 148)
+}
 .footer_column ul li a:hover{
     color:rgb(153, 148, 148);
 }
