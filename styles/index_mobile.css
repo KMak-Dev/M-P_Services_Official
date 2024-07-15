@@ -21,7 +21,7 @@
     }
     #banner1{
         height:100%;
-        padding-top:5vh;
+        padding-top:12vh;
     }
     #img1{
        display:none;
@@ -109,5 +109,14 @@
         color:white;
         text-align: center;
     }
-    
+    #title2{
+        font-size: 2rem;
+        
+    }
+    .title{
+        
+        font-size: 2rem !important;
+        padding-bottom: 5vh;
+        font-weight:bold;
+    }
 }
