@@ -6,6 +6,7 @@
     flex-direction: row;
     justify-content: space-between;
     overflow: hidden;
+    width:100vw;
 }
 .footer_column{
     width:33vw;
@@ -28,11 +29,12 @@
     color:black;
     font-weight: bold;
     transition: 0.5s;
+
 }
-.footer_column img{
+/*.footer_column img{
     max-width:100%;
     height:auto;
-}
+}*/
 .foot_logo{
     height:50%;
     width:50%;
@@ -65,7 +67,7 @@
 
 #contact_footer li{
     padding-bottom: 5vh;
-    font-weight: 00;
+    font-weight: 0;
     font-size:1rem;
 }
 #contact_footer{
@@ -80,4 +82,39 @@
 
 .footer_column ul li a:hover{
     color:rgb(153, 148, 148);
+}
+
+
+@media only screen and (max-width:800px){
+    .footer{
+        height:70vh;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap:wrap;
+    }
+    .footer_column{
+        height: 80vh;
+        
+    }
+    .foot_logo{
+       width:60%;
+       margin-top: 3vh;
+    }
+    #footer_logo{
+        width:100vw;
+        height:15vh;
+        background-position: center;
+        align-items: center;
+    }
+    .footer_header{
+        padding-top: 0vh;
+        font-size: 1.2rem;
+        padding-bottom: 5vh;
+    }
+    .footer_column ul li{
+        padding-bottom: 3vh;
+    }
+    .footer2{
+        justify-content: left;
+    }
 }
