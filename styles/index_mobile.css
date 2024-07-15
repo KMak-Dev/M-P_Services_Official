@@ -21,6 +21,7 @@
     }
     #banner1{
         height:100%;
+        padding-top:5vh;
     }
     #img1{
        display:none;
