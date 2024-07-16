@@ -73,7 +73,6 @@ body{
     display:flex;
     flex-direction: row;
     height: 88vh;
-    
  }
  #banner1{
     padding-top:12vh;
@@ -136,10 +135,12 @@ body{
     padding: 1vh 2vw;
     transition: 0.5s;
     margin-right: 3vw;
+    border: 2px solid black;
 }
 
 .text a:hover{
     background-color: rgb(135, 132, 132);
+    border: 2px solid rgb(135, 132, 132);
 }
 
 #text1{
@@ -194,21 +195,6 @@ body{
     color:black;
 }
 
-#links2 a{
-    text-decoration: none;
-    color: white;
-    background-color: transparent;
-    padding: 1vh 2vw;
-    transition: 0.5s;
-    margin-right: 3vw;
-    border: 2px solid white;
-    transition: 0.5s;
-}
-
-#links2 a:hover{
-    background-color:white;
-    color:black;
-}
 
 
 
