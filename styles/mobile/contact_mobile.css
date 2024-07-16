@@ -1,0 +1,35 @@
+@media only screen and (max-width:800px){
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .content_container {
+        padding-top: 12vh;
+    
+        display: flex;
+        flex-direction: column;
+        height:100vh;
+        width:100vw;
+        background-color: rgb(243, 244, 244);
+        align-items: center;
+        justify-content: center
+    }
+    .content {
+        align-items: center;
+        justify-items: center;
+    }
+
+    .banner_title {
+        font-size:30px;
+       
+        text-align: center; 
+    }
+    .banner_title br {
+        display: block;
+    }
+
+    
+    
+}
