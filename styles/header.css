@@ -121,4 +121,8 @@ header ul li a:hover::after {
         font-weight: 0;
         font-size:1rem;
     }
+
+    header ul li a::after{
+        display:none
+    }
 }
