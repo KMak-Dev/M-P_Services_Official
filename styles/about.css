@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+
+}
+body{
+    overflow-x:hidden;
+}
+.container{
+    /*padding-left: 1vw;
+    padding-right: 3vh;*/
+   
+    width:100vw;
+    background-color: rgb(243, 244, 244);
+    overflow:hidden;
+}
+
+#img_bgd{
+    height:70vh;
+    width:100vw;
+    background:
+    linear-gradient( to right,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0)
+    ),url(../assets/hamburg.jpg);
+    background-position: center;
+    background-size: 100vw;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img_banner{
+    padding-left: 10vw;
+    width: 50vw;
+}
+#img_title{
+    font-size: 50px;
+    color:white;
+    padding-bottom: 3vh;
+}
+#img_slogan{
+    font-size: 18px;
+    color:white;
+    
+}
