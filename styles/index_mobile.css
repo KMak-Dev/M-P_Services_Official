@@ -50,7 +50,7 @@
             rgba(103, 145, 175,0.8)
         ),url(../assets/laptop2.jpg);
         background-position: center;
-        background-size: 100vw;
+        background-size: cover;
         background-repeat: no-repeat;
         background-size: cover;
     }
