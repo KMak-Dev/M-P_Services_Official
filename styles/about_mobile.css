@@ -6,4 +6,25 @@
     #img_banner{
         width:70vw;
     }
+    #who_we_are{
+        width:100vw;
+        flex-wrap: wrap;
+        padding-left:0;
+        padding-top: 15vh;
+    }
+    #who_text{
+        width:100vw;
+        padding-right: 10vw;
+        padding-bottom: 10vh;
+        padding-left:10vw
+    }
+    #who_img{
+        width:100vw;
+        height:40vh;
+        background-color: black;
+        background-image: url(../assets/river.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-right: 0vw;
+    }
 }

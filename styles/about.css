@@ -12,7 +12,7 @@ body{
     padding-right: 3vh;*/
    
     width:100vw;
-    background-color: rgb(243, 244, 244);
+    background-color: rgb(255, 255, 255);
     overflow:hidden;
 }
 
@@ -46,4 +46,86 @@ body{
     font-size: 18px;
     color:white;
     
+}
+
+#who_we_are{
+    background:white;
+    padding-top: 20vh;
+    padding-left:10vw;
+    padding-right: 10vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+#who_text{
+    width:40vw;
+    padding-right: 10vw;
+}
+#who_we_are #who_title{
+    font-size:40px;
+    padding-bottom:3vh;
+}
+
+#who_img{
+    width:55vw;
+    height:50vh;
+    background-color: black;
+    background-image: url(../assets/river.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 15vw;
+}
+#who_prg{
+    font-size: 18px;
+}
+#what_we_do{
+    background:white;
+    padding-top: 20vh;
+    padding-left:0vw;
+    padding-right: 10vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#what_text{
+    width: 60%;
+    padding-left: vw;
+    text-align: center;
+}
+
+#what_title{
+    font-size:40px;
+    padding-bottom:3vh;
+}
+#what_prg{
+    font-size: 18px;
+}
+
+#our_ser{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+#our_ser a{
+    
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgb(38, 73, 110);
+    color:white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+#our_ser a:hover{
+    background-color: rgb(71, 115, 163);
 }
