@@ -77,5 +77,7 @@
         background-size: cover;
         margin-right: 0vw;
     }
-    
+    #lets_prg{
+        padding-right: 0vw;
+    }
 }

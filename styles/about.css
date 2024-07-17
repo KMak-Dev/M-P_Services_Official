@@ -133,8 +133,8 @@ body{
 #lets_talk{
     background:black;
     margin-top:15vh;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
     padding-left:10vw;
     padding-right: 10vw;
     width: 100vw;
@@ -147,7 +147,7 @@ body{
 }
 #lets_text{
     width:40vw;
-    padding-right: 10vw;
+    padding-right: 5vw;
     text-align: left;
 }
 #lets_title{
@@ -156,16 +156,18 @@ body{
 }
 
 #lets_img{
-    width:55vw;
+    width:60vw;
     height:50vh;
     background-color: black;
-    background-image: url(../assets/hand-shake.png);
+    background: linear-gradient(to right, rgba(0,0,0,0.3),rgba(0,0,0,0.0)),
+    url(../assets/hand-shake.png);
     background-position: center;
     background-size: cover;
-    margin-right: 15vw;
+    margin-right: 0vw;
 }
 #lets_prg{
     font-size: 18px;
+    padding-right: 10vw;
 }
 #contact_us{
     padding-top:5vh;
