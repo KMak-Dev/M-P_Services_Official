@@ -10,7 +10,7 @@ body{
 .container{
     /*padding-left: 1vw;
     padding-right: 3vh;*/
-   
+    
     width:100vw;
     background-color: rgb(255, 255, 255);
     overflow:hidden;
@@ -56,15 +56,16 @@ body{
     width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-wrap: nowrap;
 }
 #who_text{
     width:40vw;
     padding-right: 10vw;
+    text-align: left;
 }
-#who_we_are #who_title{
+#who_title{
     font-size:40px;
     padding-bottom:3vh;
 }
@@ -85,7 +86,7 @@ body{
     background:white;
     padding-top: 20vh;
     padding-left:0vw;
-    padding-right: 10vw;
+    padding-right: 0vw;
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -129,3 +130,58 @@ body{
 #our_ser a:hover{
     background-color: rgb(71, 115, 163);
 }
+#lets_talk{
+    background:black;
+    margin-top:15vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left:10vw;
+    padding-right: 10vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: nowrap;
+    color:white
+}
+#lets_text{
+    width:40vw;
+    padding-right: 10vw;
+    text-align: left;
+}
+#lets_title{
+    font-size:40px;
+    padding-bottom:3vh;
+}
+
+#lets_img{
+    width:55vw;
+    height:50vh;
+    background-color: black;
+    background-image: url(../assets/hand-shake.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 15vw;
+}
+#lets_prg{
+    font-size: 18px;
+}
+#contact_us{
+    padding-top:5vh;
+}
+#lets_talk a{
+    padding: 10px 20px;
+    text-align: center;
+    background-color: transparent;
+    color:white;
+    transition: 0.5s;
+    text-decoration: none;
+    border:2px solid white;
+}
+
+#lets_talk a:hover{
+    background-color: white;
+    color:black;
+}
+
