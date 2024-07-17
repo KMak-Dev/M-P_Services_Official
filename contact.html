@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/contact.css">
-    <link rel="stylesheet" href = "styles/mobile/contact_mobile.css">
+    <link rel="stylesheet" href="styles/mobile/contact_mobile.css">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200&display=swap');
@@ -44,80 +44,114 @@
             </nav>
             <img id="menu" src="assets/menu.png">
         </header>
-            <div class="content_container">
-                <div class="banner">
-                    <div class="banner_container">
-                        <div class="banner_title">
-                            Expert Support, <br>Exceptional Service
-                        </div>
-    
-                        <div class="info">
-                            <div class="row_1">
-                                <div class="info_box" id="left_box">
-                                    <div class="section_intro">
-                                        <p class="intro_title">
-                                            Want to have a call?
-                                        </p>
-                                        <p class="intro">
-                                            We'd love to hear from you over the phone!
-                                        </p>
-                                        <p class="intro">
-                                            We'd' be more than happy to talk about our services!
-                                        </p>
-                                    </div>
-                                    <p class="contact">
-                                        Telephone: <br> 12345678
+        <div class="content_container">
+            <div class="banner">
+                <div class="banner_container">
+                    <p class="banner_title">
+                        Expert Support, Exceptional Service
+                    </p>
+
+                    <div class="info">
+                        <div class="row_1">
+                            <div class="info_box" id="left_box">
+                                <div class="section_intro">
+                                    <p class="intro_title">
+                                        Want to have a call?
+                                    </p>
+                                    <p class="intro">
+                                        We'd love to hear from you over the phone!
+                                    </p>
+                                    <p class="intro">
+                                        We'd' be more than happy to talk about our services!
                                     </p>
                                 </div>
-                                <div class="info_box" id="middle_box">
-                                    <div class="section_intro">
-                                        <p class="intro_title">
-                                            Prefer Text and Words?
-                                        </p>
-                                        <p class="intro">
-                                            We're always excited by new collaborations!
-                                        </p>
-                                        <p class="intro">
-                                            Feel free to send us an email about your future plans!
-                                        </p>
-    
-                                    </div>
-                                    <p class="contact">
-    
-                                        Email: <br> aaa@gmail.com
-                                    </p>
-                                </div>
+                                <p class="contact">
+                                    Telephone: <br> 12345678
+                                </p>
                             </div>
-                            <div class="row_2">
-                                <div class="info_box" id="right_box">
-                                    <div class="section_intro">
-                                        <p class="intro_title">
-                                            Eager to Meet Us?
-                                        </p>
-                                        <p class="intro">
-                                            Our office welcomes visitors for discussion!
-                                        </p>
-                                        <p class="intro">
-                                            Let's have an enjoyable chat about your bussiness vision!
-                                        </p>
-                                    </div>
-                                    <p class="contact">
-                                        Office hour: <br> Monday to Friday <br> (09:30-18:00)
+                            <div class="info_box" id="middle_box">
+                                <div class="section_intro">
+                                    <p class="intro_title">
+                                        Prefer Text and Words?
                                     </p>
+                                    <p class="intro">
+                                        We're always excited by new collaborations!
+                                    </p>
+                                    <p class="intro">
+                                        Feel free to send us an email about your future plans!
+                                    </p>
+
                                 </div>
+                                <p class="contact">
+
+                                    Email: <br> aaa@gmail.com
+                                </p>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="form">
-                    <div class="form_container">
-                        Form place-holder
+                        <div class="row_2">
+                            <div class="info_box" id="right_box">
+                                <div class="section_intro">
+                                    <p class="intro_title">
+                                        Eager to Meet Us?
+                                    </p>
+                                    <p class="intro">
+                                        Our office welcomes visitors for discussion!
+                                    </p>
+                                    <p class="intro">
+                                        Let's have an enjoyable chat about your bussiness vision!
+                                    </p>
+                                </div>
+                                <p class="contact">
+                                    Office hour: <br> Monday to Friday <br> (09:30-18:00)
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="form">
 
-        
-         <div class="footer">
+                <div class="form_container">
+                    <p class="form_title">
+                        Elevate Your Business Game
+                    </p>
+                    <p class="form_intro">
+                        Thank you for your interest in our services!
+                        <br>
+                        We will contact you about the enquiry shortly!
+                    </p>
+                    <form target="/send_form/success_send.html" action="https://formsubmit.co/kjrgunpla@gmail.com"
+                        method="POST" class="form_content">
+                        
+                        <div class="form_group">
+                            <div class="form_item">
+                                <input type="text" name="name" class="form-control" placeholder="Full Name*" required>
+                            </div>
+                            <div class="form_item">
+                                <input type="text" name="organization" class="form-control" placeholder="Organization Name">
+                            </div>
+                            <div class="form_item">
+                                <input type="email" name="email" class="form-control" placeholder="Email Address*" required>
+
+                            </div>
+                            <div class="form_item">
+                                <textarea placeholder="Your Enquiry*" class="form-control" name="message" rows="10"
+                                required></textarea>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="submission_button">Submit Form</button>
+                        <p class="reminder">
+                            Please fill in the items with * attached! Thank you!
+                        </p>
+                      
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
             <div class="footer_column" id="footer_logo">
                 <div class="foot_logo">
 
@@ -151,7 +185,7 @@
                 M&P Services. All Rights Reserved
             </div>
         </div>
-       
+
 </body>
 <script src="script/header.js"></script>
 

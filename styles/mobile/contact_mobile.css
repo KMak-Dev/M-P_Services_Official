@@ -1,16 +1,17 @@
-@media only screen and (max-width:800px){
-    
+@media only screen and (max-width:800px) {
+
     body {
         display: flex;
         flex-direction: column;
         overflow-x: hidden;
     }
+
     .content_container {
         padding-top: 12vh;
         display: flex;
         flex-direction: column;
-        height:250vh;
-        width:100vw;
+        height: 250vh;
+        width: 100vw;
         background-color: rgb(243, 244, 244);
         align-items: center;
         justify-content: center
@@ -21,10 +22,12 @@
         height: 150vh;
 
     }
+
     .row_1 {
         display: flex;
         flex-direction: column;
     }
+
     .info_box {
         width: 100vw;
         height: 45vh;
@@ -33,11 +36,11 @@
         align-items: center;
         text-align: center;
     }
+
     .banner_title {
-        font-size:30px;
-       
-        text-align: center; 
+        font-size: 30px;
     }
+
     .banner_title br {
         display: block;
     }
@@ -53,6 +56,6 @@
         color: white
     }
 
-    
-    
+
+
 }
