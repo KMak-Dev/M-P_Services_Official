@@ -27,4 +27,21 @@
         background-size: cover;
         margin-right: 0vw;
     }
+    #what_we_do{
+        background:white;
+        padding-top: 20vh;
+        padding-left:0vw;
+        padding-right: 0vw;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #what_text{
+        width: 90%;
+        padding-left: vw;
+        text-align: center;
+    }
 }
