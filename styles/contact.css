@@ -131,13 +131,15 @@ body {
     width: 50vw;
 }
 .form_intro {
-    padding-bottom:4vh;
+    padding-bottom:2vh;
+    margin-bottom: 2vh;
     font-size: 18px;
+    height:5vh;
 
 }
 .form_content {
-    height: 60vh;
-    width: 34vw;
+    height: 55vh;
+    width: 36vw;
     border: 3px solid white;
     display: flex;
     flex-direction: column;
@@ -151,13 +153,11 @@ body {
     width: 35vw;
 }
 
-.form-control {
+.form_control {
     width: 20vw;
     padding: 1vh;
 }
-.submission_button{ 
-    margin: 2vh;
-}
+
 .reminder {
-    margin: 2vh
+    margin: 2vh;
 }
