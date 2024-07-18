@@ -187,3 +187,55 @@ body{
     color:black;
 }
 
+#our_foot{
+width:100vw;
+padding-top:20vh;
+}
+
+#our_title{
+    font-size:40px;
+    text-align: center;
+}
+#our_banner{
+    display:flex;
+    width:100%;
+    align-items: center;
+    flex-direction: row;
+    padding-top:5vh;
+}
+#our_img{
+    width:50vw;
+    height:70vh;
+    
+}
+#our_img img{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+    overflow: hidden;
+    object-position: left;
+    margin-left: 10vw;
+}
+
+#our_text{
+    display: flex;
+    justify-content: left;
+    width:40vw;
+    padding-right:10vw;
+    font-size:18px;
+    flex-wrap: wrap;
+}
+
+#our_text #our_link{
+    width:100%;
+    padding-top: 5vh;
+}
+#our_text #our_link a{
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgb(38, 73, 110);
+    color:white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
