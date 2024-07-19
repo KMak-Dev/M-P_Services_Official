@@ -1,35 +1,117 @@
-@media only screen and (max-width:800px){
-    
+@media only screen and (max-width:800px) {
+
     body {
         display: flex;
         flex-direction: column;
         overflow-x: hidden;
     }
+
     .content_container {
         padding-top: 12vh;
-    
         display: flex;
         flex-direction: column;
-        height:100vh;
-        width:100vw;
+        height: 300vh;
+        width: 100vw;
         background-color: rgb(243, 244, 244);
         align-items: center;
-        justify-content: center
+        justify-content: center;
     }
-    .content {
+
+    .banner_container {
+       
+        width: 100vw;
+    
+    }
+
+    .banner {
+        width: 100vw;
+        height: 150vh;
+
+    }
+
+    .row_1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info_box {
+        width: 100vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-items: center;
+        text-align: center;
     }
 
     .banner_title {
-        font-size:30px;
-       
-        text-align: center; 
+        font-size: 30px;
     }
+
     .banner_title br {
         display: block;
     }
 
-    
-    
+    .contact {
+        height: 25%
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(38, 73, 110);
+        color: white
+    }
+    .form_content {
+        height: 100vh;
+        width: 72vw;
+        border: 3px solid white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form_title {
+        font-size: 30px;
+        font-weight: bold;
+        padding: 3vh;
+        padding-top: 0;
+        margin-bottom: 3vh;
+        color:white;
+
+    }
+
+    .form_container {
+       
+        height: 150vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .form_group {
+        margin:2vh
+    }
+    .form_control {
+        width: 40vw;
+        padding: 1vh;
+    }
+    .form_item {
+        align-items: center;
+        justify-content: center;
+        padding: 4vh;
+        display: flex;
+
+    }
+    .form_intro {
+        padding-bottom: 2vh;
+        margin-bottom: 6vh;
+        font-size: 18px;
+        height: 5vh;
+    }
+   
 }
