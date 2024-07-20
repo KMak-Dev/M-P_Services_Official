@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'DM Sans', sans-serif;
-
+    
 }
 
 body {
@@ -11,153 +11,119 @@ body {
     overflow-x: hidden;
 }
 
-.content_container {
-    padding-top: 12vh;
-
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(243, 244, 244);
+.container{
+    height:100vh;
+    width:100vw;
+    background-color: black;
 }
 
-.banner {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 50vw;
+#content{
+    padding-top:12vh;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:row;
+    
 }
 
-.banner_container {
-    display: flex;
-    flex-direction: column;
+#left{
+    width:50%;
+    height:100%;
+    background: white;
+}
+#right{
+    width:50%;
+    height:100%;
+    background-color: white;
+    display:flex;
+    justify-content: left;
     align-items: center;
-    justify-content: center;
-    text-align: center; 
-    height: 100vh;
-    width: 50vw;
-
-}
-
-.banner_title {
-    font-size: 40px;
-    font-weight: bold;
-    padding: 3vh;
-    padding-top: 0;
-    margin-bottom: 3vh;
-
-}
-
-.banner_title br {
-    display: none;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 65vh
-
-}
-
-.info_box {
-    width: 22vw;
-    height: 34vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.row_1 {
-    display: flex;
-    flex-direction: row;
-}
-
-
-.intro_title {
-    font-size: 18px;
-    font-weight: bold;
-    padding: 2vh;
-    align-self: center;
-}
-
-.section_intro {
-    width: 100%;
-    height: 50%;
-    overflow-y: auto;
-
-}
-
-.contact {
-    font-size: 15px;
-    font-weight: bold;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    width: 100%;
-    height: 50%;
-
-}
-
-.section_intro br {
-    display: none
 }
 
 .form{
-    display: flex;
+    width:80%;
+    
+    height: 90%;
+    box-shadow: rgba(50, 50, 93, 0.25) -5px 1px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.form form{
+    padding-left: 10%;
+    padding-right:10%;
+    display:flex;
     flex-direction: column;
-    height: 100vh;
-    width: 50vw;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(38, 73, 110);
-    color: white
-}
-.form_title {
-    font-size: 40px;
-    font-weight: bold;
-    padding: 3vh;
-    padding-top: 0;
-    margin-bottom: 3vh;
-    color:white
-}
-.form_container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center; 
-    height: 100vh;
-    width: 50vw;
-}
-.form_intro {
-    padding-bottom:2vh;
-    margin-bottom: 2vh;
-    font-size: 18px;
-    height:5vh;
-
-}
-.form_content {
-    height: 55vh;
-    width: 36vw;
-    border: 3px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.form_group {
-    margin:2vh
-}
-.form_item {
-    padding: 1vh;
-    width: 35vw;
+    flex-wrap: wrap;
+    
 }
 
-.form_control {
-    width: 20vw;
-    padding: 1vh;
+.f_title{
+    padding-top:5%;
+    padding-left: 10%;
+    padding-right:10%;
+    font-size: 25px;
+    color: rgb(122, 74, 19);
+    font-weight: 0;
+    padding-bottom:5%;
+    font-family: 'Cambria', sans-serif;
+}
+.label{
+    font-size:16px;
+    width:100%;
+    padding-bottom: 3%;
+    font-weight:0;
+    font-family: 'Cambria', sans-serif;
+}
+.inp{
+    border:none;
+    border-bottom: 1px solid rgb(193, 190, 190);
+    width:80%;
+    height: 25px;
+    margin-bottom: 3%;
+    font-size:16px;
+    font-family: 'Cambria', sans-serif;
+    transition: 0.5s;
+}
+.inp:focus{
+    border:none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+}
+#msg_inp{
+    height:20vh;
+    width:100%;
+    display:flex;
+    justify-content: start;
+    align-items: top;
+    padding-left: 2%;
+    padding-top:2%;
+    font-size: 16px;
+    font-family: 'Cambria', sans-serif;
+    outline: none;
+    border: 1px solid rgb(193, 190, 190);
+    transition: 0.5s;
+}
+#msg_inp:focus{
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+}
+#sub{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 3vh;
+    
+}
+form button{
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgb(122, 74, 19);
+    color:white;
+    transition: 0.5s;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    font-family: 'Cambria', sans-serif;
 }
 
-.reminder {
-    margin: 2vh;
+form button:hover{
+    background-color: rgb(177, 110, 33);
 }
