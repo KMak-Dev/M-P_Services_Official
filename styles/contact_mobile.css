@@ -1,16 +1,17 @@
 @media only screen and (max-width:800px){
     .container{
-        height:200vh;
+        height:auto;
         width:100vw;
         background-color: black;
     }
     #content{
-        height:200vh;
+        height:auto;
         width:100vw;
         flex-direction: column;
     }
     #left{
         width:100vw;
+        height:auto;
     }
     #right{
         width:100vw;
@@ -22,5 +23,9 @@
         height:100%;
         box-shadow: none;
         border:none;
+        padding-bottom:5vh;
+    }
+    textarea{
+        resize:none;
     }
 }
