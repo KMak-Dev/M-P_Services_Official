@@ -7,7 +7,7 @@
 
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     overflow-x: hidden;
 }
 
@@ -42,8 +42,6 @@ body {
 
 .form{
     width:80%;
-    
-    
     height: 90%;
     box-shadow: rgba(50, 50, 93, 0.25) -5px 1px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
@@ -64,14 +62,14 @@ body {
     color: rgb(107, 68, 24);
     font-weight: 0;
     padding-bottom:5%;
-    font-family: 'Cambria', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 .label{
     font-size:16px;
     width:100%;
     padding-bottom: 3%;
     font-weight:0;
-    font-family: 'Cambria', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 .inp{
     border:none;
@@ -80,7 +78,7 @@ body {
     height: 25px;
     margin-bottom: 3%;
     font-size:16px;
-    font-family: 'Cambria', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     transition: 0.5s;
 }
 .inp:focus{
@@ -97,7 +95,7 @@ body {
     padding-left: 2%;
     padding-top:2%;
     font-size: 16px;
-    font-family: 'Cambria', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     outline: none;
     border: 1px solid rgb(193, 190, 190);
     transition: 0.5s;
@@ -122,7 +120,7 @@ form button{
     text-decoration: none;
     border: none;
     font-size: 16px;
-    font-family: 'Cambria', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 form button:hover{
