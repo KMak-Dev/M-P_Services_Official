@@ -28,4 +28,42 @@
     textarea{
         resize:none;
     }
+
+    #info{
+        height: 80%;
+        width:100%;
+        padding-left:10vw;
+        padding-right:10vw;
+        padding-bottom: 15vh;
+        padding-top: 5vh;
+    }
+    
+    #contact_ti{
+        font-size:35px;
+        font-weight:bold;
+        padding-bottom: 5vh;
+        color: rgb(107, 68, 24);
+        font-weight: bold;
+    }
+    
+    
+    #info_d{
+        font-size:20px;
+        font-weight: bold;
+    }
+    
+    #contact_p{
+        padding-bottom: 5vh;
+        font-size:18px;
+        font-weight: bold;
+    }
+    
+    #info_d p{
+        padding-bottom: 1vh;
+        
+    }
+    #info_d p:first-child{
+        color: rgb(107, 68, 24);
+    
+    }
 }
