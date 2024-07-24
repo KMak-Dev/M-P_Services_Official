@@ -1,4 +1,3 @@
-
 <html>
 
 <head>
@@ -36,7 +35,7 @@
             <nav class="sidebar">
                 <ul id="side_menu">
                     <li onclick="hideSidebar()"><a href="index.html">Home</a> </li>
-                    <li><a href="">About Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
                     <li><a href="">Our Portfolio</a></li>
                     <li><a href="">Our Services</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
@@ -46,26 +45,43 @@
         </header>
         <div id="content">
             <div id="left">
-
+                <div id="info">
+                    <p id="contact_ti">Contact our team, or leave us a message</p>
+                    <p id="contact_p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis augue nisi, non fringilla mauris dapibus ac.
+                    </p>
+                    <div id="info_d">
+                        <p>
+                            +49 123456789 | company@gmail.com
+                        </p>
+                        <p>
+                            45 Hamburg street, Hamburg, Germany
+                        </p>
+                        
+                    </div>
+                    
+                    
+                </div>
             </div>
             <div id="right">
                 <div class="form">
                     <p class="f_title">Get in touch with our team</p>
                     <form>
                         <label for="name" class="label">Name</label>
-                        <input type="text" class="inp" name="name" placeholder="Your name*">
-                        <label for="Cname" class="label" >Company Name</label>
-                        <input type="text" class="inp" name="Cname" placeholder="Company name*">
+                        <input type="text" class="inp" name="name" placeholder="Your name*" required>
+                        <label for="Cname" class="label">Company Name</label>
+                        <input type="text" class="inp" name="Cname" placeholder="Company name*" required>
                         <label for="email" class="label">Email</label>
-                        <input type="text" class="inp" name="email"  placeholder="company@gmail.com*">
+                        <input type="text" class="inp" name="email" placeholder="company@gmail.com*" type="email"
+                            required>
                         <label for="num" class="label">Telephone</label>
-                        <input type="text" class="inp" name="num"  placeholder="Your number*">
+                        <input type="text" class="inp" name="num" placeholder="Your number*" required>
                         <label for="msg" class="label">How can we help you?</label>
-                        <textarea id= "msg_inp" placeholder="Your message*"></textarea>
+                        <textarea id="msg_inp" placeholder="Your message*" required></textarea>
                         <div id="sub">
                             <button type="submit">Submit</button>
                         </div>
-                        
+
                     </form>
                 </div>
             </div>
