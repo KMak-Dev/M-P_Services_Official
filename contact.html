@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/contact_mobile.css">
-
+    <link rel="script" href="script/recaptcha.js">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200&display=swap');
     </style>
@@ -80,9 +81,13 @@
                         <input type="text" class="inp" name="num" placeholder="Your number*" required>
                         <label for="msg" class="label">How can we help you?</label>
                         <textarea id="msg_inp" placeholder="Your message*" required form="enquiry"></textarea>
-                        <div id="sub">
-                            <button type="submit">Submit</button>
+                        <div class="form_end">
+                            <div id="sub">
+                                <button type="submit">Submit</button>
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6LcVUBgqAAAAAPQFk_Xl0yj_9k7exh4qca5brZ3V"></div>
                         </div>
+                       
 
                     </form>
                 </div>
