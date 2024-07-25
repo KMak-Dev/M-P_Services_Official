@@ -7,8 +7,18 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/contact_mobile.css">
-    
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LctlRgqAAAAAINzPjGr6CnC2XXIC3RJkBBMFcfr"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LctlRgqAAAAAINzPjGr6CnC2XXIC3RJkBBMFcfr', {
+                    action: 'contact'
+                })
+                .then(function (token) {
+                    recaptchaResponse.value = token;
+                });
+        });
+        
+    </script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200&display=swap');
     </style>
@@ -71,6 +81,7 @@
                     <!--41f3d99fbffe110e8c7ec9a6e32cac15-->
                     <!--mp.services2024@outlook.com-->
                     <form action="https://api.web3forms.com/submit" method="POST" id="enquiry">
+                        
                         <input type="hidden" name="access_key" value="38408c65-15d9-4759-9915-c54bf1d44c58">
                         <label for="name" class="label">Name</label>
                         <input type="text" class="inp" name="name" placeholder="Your name*" required form="enquiry">
@@ -84,6 +95,7 @@
                         <label for="message" class="label">How can we help you?</label>
                         <textarea id="msg_inp" name = "message" placeholder="Your message*" required form="enquiry"></textarea>
                         <div class="form_end">
+                            
                             <div id="sub">
                                 <button type="submit">Submit</button>
                             </div>
