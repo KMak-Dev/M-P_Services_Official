@@ -175,6 +175,7 @@ form button:hover{
 .form_end{
     display:flex;
     flex-direction: column;
+    padding-bottom: 3vh;
 }
 
 .g-recaptcha{
