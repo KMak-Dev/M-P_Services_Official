@@ -42,7 +42,7 @@
         font-size:35px;
         font-weight:bold;
         padding-bottom: 5vh;
-        color: rgb(107, 68, 24);
+        color: black;
         font-weight: bold;
     }
     
@@ -63,7 +63,7 @@
         
     }
     #info_d p:first-child{
-        color: rgb(107, 68, 24);
+        color: black;
     
     }
 }

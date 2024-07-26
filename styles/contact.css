@@ -45,7 +45,7 @@ body {
 
 .form{
     width:60%;
-    height: 80%;
+    height: auto;
     box-shadow: rgba(50, 50, 93, 0.25) -5px 1px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     margin-left:5vw;
 }
@@ -63,7 +63,7 @@ body {
     padding-left: 10%;
     padding-right:10%;
     font-size: 25px;
-    color: rgb(107, 68, 24);
+    color: black;
     font-weight: 0;
     padding-bottom:5%;
     font-family: 'DM Sans', sans-serif;
@@ -123,7 +123,7 @@ body {
 form button{
     padding: 10px 20px;
     text-align: center;
-    background-color: rgb(107, 68, 24);
+    background-color: rgb(38, 73, 110);
     color:white;
     transition: 0.5s;
     text-decoration: none;
@@ -134,7 +134,7 @@ form button{
 }
 
 form button:hover{
-    background-color: rgb(146, 101, 50);
+    background-color: rgb(73, 113, 155);
 }
 
 #info{
@@ -147,7 +147,7 @@ form button:hover{
     font-size:35px;
     font-weight:bold;
     padding-bottom: 5vh;
-    color: rgb(107, 68, 24);
+    color: black;
     font-weight: bold;
 }
 
@@ -168,6 +168,26 @@ form button:hover{
     
 }
 #info_d p:first-child{
-    color: rgb(107, 68, 24);
+    color: black;
 
+}
+
+.form_end{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 3vh;
+}
+
+.grecaptcha-badge { 
+    visibility: hidden !important;
+}
+.privacy{
+    padding-top: 3vh;
+    font-size:14px;
+    text-decoration: none;
+}
+
+.privacy a{
+    text-decoration: none;
+    color: rgb(38, 73, 110);
 }

@@ -44,7 +44,7 @@
    .container-2{
         height:100vh;
         width:100vw;
-        background:
+        background:rgba(103, 145, 175,0.8);/*
         linear-gradient( 
             rgba(103, 145, 175,0.8),
             rgba(103, 145, 175,0.8)
@@ -52,17 +52,19 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover;*/
     }
 
     .container-3{
-        height:100vh;
+
+        min-height:100vh;
+        height:auto;
         width:100vw;
         background-color: rgb(38, 73, 110);
         /*background-color: rgb(158, 193, 233);*/
         color:white;
         overflow: hidden;
-        
+        /*
         background:
         linear-gradient(to right,
         rgba(64, 102, 144, 0.85),
@@ -71,7 +73,7 @@
         background-position: left;
         background-size: 100vw;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover;*/
         
     }
     .container-3 .banner #img3{
@@ -102,8 +104,8 @@
         justify-content: center;
     }
     #text4{
-        padding-left: 5vw;
-        padding-right: 5vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
         padding-top:10vh;
         width:100vw;
         color:white;
@@ -132,5 +134,17 @@
 
     #links4 a{
         padding: 5px 35px;
+    }
+
+    .container-3 #img3-2{
+        background-image: 
+        url(../assets/meeting.jpg);
+        
+        background-position: center;
+        
+        background-size: cover;
+        transition: 0.5s;
+        background-repeat: no-repeat;
+        display:block;
     }
 }

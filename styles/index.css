@@ -15,7 +15,8 @@ body{
 .container{
     /*padding-left: 1vw;
     padding-right: 3vh;*/
-    height:100vh;
+    min-height:100vh;
+    height:auto;
     width:100vw;
     background-color: rgb(243, 244, 244);
     overflow:hidden;
@@ -24,17 +25,17 @@ body{
 .container-2{
     height:50vh;
     width:100vw;
-    background:
+    background:white;/*rgba(103, 145, 175,0.8);/*
     linear-gradient( 
         rgba(103, 145, 175,0.8),
         rgba(103, 145, 175,0.8)
     ),url(../assets/laptop2.jpg);
     background-position: left;
-    background-size: cover;
+    background-size: cover;*/
 }
 
 #title2{
-    text-align: center;
+    text-align: left;
     width: 100vw;
     padding-top:5vh;
     display: flex;
@@ -43,11 +44,13 @@ body{
     font-size: 3rem;
     padding-bottom: 2vh;
     font-weight:bold;
-    color:rgb(238, 235, 235);
+    /*color:rgb(238, 235, 235);*/
+    color:black;
 }
 
 .container-3{
-    height:100vh;
+    min-height:100vh;
+    height:auto;
     width:100vw;
     background-color: rgb(38, 73, 110);
     /*background-color: rgb(158, 193, 233);*/
@@ -73,6 +76,7 @@ body{
     display:flex;
     flex-direction: row;
     height: 88vh;
+    
  }
  #banner1{
     padding-top:12vh;
@@ -122,11 +126,13 @@ body{
     font-size: 48px;
     padding-bottom: 5vh;
     font-weight:bold;
+    text-align: left;
 }
 
 .text .content{
     padding-bottom: 5vh;
     font-size: 1rem;
+    text-align: left;
 }
 .text a{
     text-decoration: none;
@@ -184,7 +190,23 @@ body{
     background-color: white;
     color: black;
 }
-
+.container-3 #img3-2{
+    background-image: 
+    url(../assets/meeting.jpg);
+    width:100%;
+    background-position: center;
+    min-height:30vh;
+    height:auto;
+    background-size: cover;
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    display:none;
+    margin-bottom:5vh;
+}
+.links{
+    display:flex;
+    justify-content: left;
+}
 #links4 a{
     background-color: transparent;
     border: 2px solid white;
@@ -203,3 +225,8 @@ body{
     color:white;
 }
 
+#banner3{
+    min-height:88vh;
+    height:auto;
+    padding-bottom: 10vh;;
+}
