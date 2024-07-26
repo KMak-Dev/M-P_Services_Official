@@ -31,7 +31,7 @@ body{
         rgba(103, 145, 175,0.8)
     ),url(../assets/laptop2.jpg);
     background-position: left;
-    background-size: cover;*/
+    background-size: cover;*/display:none;
 }
 
 #title2{

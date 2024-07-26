@@ -85,10 +85,11 @@
         text-align: center;
         padding-left: 10vw;
         padding-right: 10vw;
-        padding-top: 15vh;
+        padding-top: 10vh;
     }
     .container-4{
-        height:100vh;
+        min-height:50vh;
+        height:auto;
         width:100vw;
         background:  linear-gradient( to right,
             rgba(0, 0, 0, 0.8),
@@ -99,7 +100,6 @@
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
-
         display:flex;
         justify-content: center;
     }
@@ -110,6 +110,7 @@
         width:100vw;
         color:white;
         text-align: center;
+        padding-bottom:10vh;
     }
     #title2{
         font-size: 35px !important;
