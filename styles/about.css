@@ -239,3 +239,6 @@ padding-top:20vh;
     text-decoration: none;
 }
 
+#our_text #our_link a:hover{
+    background-color: rgb(71, 115, 163);
+}
