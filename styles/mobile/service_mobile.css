@@ -1,0 +1,19 @@
+@media only screen and (max-width:800px) {
+
+    #img_bgd {
+        height: 50vh;
+       
+    }
+    #img_title {
+        font-size: 35px;
+    }
+    #content_c{
+        height:250vh;
+        width:100vw;
+        
+    }
+    .content {
+        height:50vh;
+    }
+
+}
