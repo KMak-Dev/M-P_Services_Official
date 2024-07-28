@@ -95,7 +95,6 @@ body {
     justify-content: center;
     align-items: center;
     margin-top:0vh;
-    display:flex;
     flex-wrap: wrap;
     flex-direction: column;
     /*margin-left:15vw;*/
