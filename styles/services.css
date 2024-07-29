@@ -16,67 +16,73 @@ body {
     width: 100vw;
     background-color: white;
     overflow: hidden;
-    min-height:100vh;
+    min-height: 100vh;
 }
-.head{
-    min-height:50vh;
-    height:auto;
-    color:black;
-    width:100vw;
+
+.head {
+    min-height: 50vh;
+    height: auto;
+    color: black;
+    width: 100vw;
     text-align: center;
     background-color: black;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:12vh;
+    margin-top: 12vh;
     padding-bottom: 3vh;
 }
 
-.big_title{
-    font-size:50px;
-    width:50%;
-    position:relative;
-    color:white;
-    
-}
-.big_title::after{
-    content:'';
-    position:absolute;
-    height:2px;
-    bottom:-3vh;
-    width:50%;
-    background-color: white;
-    left:25%;
-    right:25%;
-    color:white;
+.big_title {
+    font-size: 50px;
+    width: 50%;
+    position: relative;
+    color: white;
+
 }
 
-#overview{
+.big_title::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    bottom: -3vh;
+    width: 50%;
+    background-color: white;
+    left: 25%;
+    right: 25%;
+    color: white;
+}
+
+#overview {
     width: 100vw;
-    height:auto;
-    display:flex;
+    height: auto;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:15vh;
-    display:flex;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    /*margin-left:15vw;*/
-    position:relative
+    position: relative
 }
-#o_title{
-    width:60%;
+
+#o_title {
+    width: 60%;
     text-align: center;
-    font-size: 35px;;
+    font-size: 35px;
+    ;
     padding-bottom: 3vh;
-    color:black;
+    color: black;
 }
-#o_content{
+
+#o_content {
     text-align: center;
-    width:60%;
+    width: 60%;
     font-size: 18px;
-    color:black;
+    color: black;
 }
+
 /*
 #overview::after{
     content:'';
@@ -88,40 +94,109 @@ body {
     left:-3vw;
    
 }*/
-#wwd{
+#wwd {
     width: 100vw;
-    height:auto;
-    display:flex;
+    height: auto;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:0vh;
+    margin-top: 0vh;
     flex-wrap: wrap;
     flex-direction: column;
-    /*margin-left:15vw;*/
-    position:relative;
-    background-color: white;
-    padding-top:15vh;
-    padding-bottom:10vh;
-}
-#w_title{
-    width:60%;
-    text-align: center;
-    font-size: 35px;;
-    padding-bottom: 3vh;
-    color:black;
-}
-#w_content{
-    text-align: center;
-    width:60%;
-    font-size: 18px;
-    color:black;
-    
+  
+    background-color: black;
+    padding-top: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
-#web_title{
-    padding-top:15vh;
-    padding-bottom:10vh;
+#intro {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#w_title {
+    width: 60%;
+    text-align: center;
     font-size: 35px;
-    color:gray;
+    
+    padding-bottom: 2vh;
+    color:white;
+
+}
+
+#w_content {
+    text-align: center;
+    width: 60%;
+    font-size: 18px;
+    color:white;
+
+    margin-bottom: 8vh;
+
+
+}
+
+#web, #market, #modern, #brand{    
+    width: 100vw;
+    height:40vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.service_title {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 35px;
+    color:white;
     font-weight: bolder;
+    text-align: center;
+}
+
+.service_detail {
+    padding-bottom: 10vh;
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#web {
+    background:
+    linear-gradient( to right,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.4)
+    ),url(../assets/pexels-tranmautritam-326518.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#market {
+    background:
+    linear-gradient( to right,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.4)
+    ),url(../assets/digital-marketing-1433427_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#modern {
+    background:
+    linear-gradient( to right,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.4)
+    ),url(../assets/job-5382501_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#brand {
+    background:
+    linear-gradient( to right,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.4)
+    ),url(../assets/student-849826_1280.jpg);
+    background-position: center;
+    background-size: cover;
 }
