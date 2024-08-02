@@ -10,7 +10,6 @@ body{
 .container{
     /*padding-left: 1vw;
     padding-right: 3vh;*/
-    
     width:100vw;
     background-color: rgb(255, 255, 255);
     overflow:hidden;

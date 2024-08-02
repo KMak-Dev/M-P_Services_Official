@@ -144,7 +144,6 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
-
 }
 
 .service_title {
@@ -152,16 +151,18 @@ body {
     padding-bottom: 10vh;
     font-size: 35px;
     color:white;
-    font-weight: bolder;
+    /*font-weight: bolder;*/
     text-align: center;
+    width:90%
 }
 
 .service_detail {
     padding-bottom: 10vh;
     font-size: 18px;
     color:white;
-    font-weight: bold;
+    /*font-weight: bold;*/
     text-align: center;
+    width:90%
 }
 
 #web {
